@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+
+<script type="text/Javascript">
+// var a=0, b=1;
+// var temp,n=10;
+// console.log(a);
+// console.log(b);
+// while(n>=0){
+// 	temp = a+b;
+// 	console.log(temp); //1
+//       a = b;
+//       b= temp;
+
+//       n--;
+
+
+// }
+
+
+var fibonacci = function(n){
+
+	var a=0, b=1;
+	var temp;
+	console.log(a);
+    console.log(b);
+	while(n>=0){
+         temp = a+b;
+         console.log(temp);
+         a=b;
+         b = temp;
+
+        n--;
+	}
+}
+
+
+console.log(fibonacci(12));
+
+
+</script>
+</body>
+</html>
